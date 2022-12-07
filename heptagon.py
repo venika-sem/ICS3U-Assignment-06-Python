@@ -24,7 +24,7 @@ def main():
         side_as_int = input("Enter side of a heptagon (cm): ")
         side = float(side_as_int)
         heptagon_perimeter = calculate_heptagon_perimeter(side)
-        print("\nThis heptagon's perimeter is {} cm²".format(heptagon_perimeter))
+        print("\nThis heptagon's perimeter is {} cm".format(heptagon_perimeter))
     except ValueError:
         print("\nInvalid Input.")
     finally:
